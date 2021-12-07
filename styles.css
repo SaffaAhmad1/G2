@@ -459,8 +459,41 @@ footer .container{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 500px;
+}
+footer .container .l1 ul {
+    list-style: none;
+}
+footer .container .l1 ul li{
+    display: inline-block;
+    color: white;
+    margin: 50px;
+    margin-top: 10px;
+    font-size: 27px;
+}
+footer .container .l2{
+    display: flex;
+}
+footer .container .l2 ul{
+    list-style: none;
+}
+footer .container .l2 ul li{
+    display: inline-block;
+    color: white;
+    margin: 10px;
+    margin-top: 5px; 
+}
+footer .container hr{
+    opacity: 0.5;
+    margin: 50px;
+    width: 1000px;
 }
 footer .container h5{
     color: white;
+    opacity: 0.5;
+    font-size: 15px;
+    text-align: center;
+    
 }
+
+
